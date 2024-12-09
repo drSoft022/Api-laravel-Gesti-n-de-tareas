@@ -11,7 +11,7 @@ POST /api/auth/register
 POST /api/auth/logout
 POST /api/auth/me
 
-Tambien cuenta con 4 endpoints para la gestio de tareas
+Tambien cuenta con 4 endpoints para la gestion de tareas
 
 GET /api/tareas
 POST /api/tareas
@@ -32,10 +32,10 @@ en la ruta /api/auth/register se podra realizar el registro, para esto en necesa
         "password": "123456789"
     }
 
-## Gestio de tareas
+## Gestion de tareas
 
-Para le gestion de tareas se crearo seeders para la tabla relacional de las prioridades de la tarea, se crean tres registro ('Alto id:1', 'Medio id:2', 'Bajo id:3')
-estos resigtros con sus respectivos id son los que se usaran par ala creacion de tareas:
+Para le gestion de tareas se crearon seeders para la tabla relacional de las prioridades de la tarea, se crean tres registros ('Alto id:1', 'Medio id:2', 'Bajo id:3')
+estos resigtros con sus respectivos id son los que se usaran para la creacion de tareas:
 
     {
         "nombre_tarea" : "Tarea 1"
